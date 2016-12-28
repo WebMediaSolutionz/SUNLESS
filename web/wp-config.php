@@ -34,7 +34,7 @@ if ( is_numeric ( strpos( $domain, "localhost" ) ) ) {
 
 switch ( $environment ) {
 		case 'dev' : 	/** MySQL database name */
-						define('DB_NAME', 'sunset');
+						define('DB_NAME', 'sunless');
 
 						/** MySQL database username */
 						define('DB_USER', 'root');
