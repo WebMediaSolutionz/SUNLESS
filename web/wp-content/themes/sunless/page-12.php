@@ -63,58 +63,14 @@ airbrush!</font></span></p></div>
 </div><div id="I213" style="display:block;clear: both;margin:10px 10px 10px 10px;" class="Horizontal_Line_Default">    <div style="border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#555555;font-size:0;padding:0;margin:0;height:0;line-height:0;"></div>
 </div></td>
             <td><div style="font-size:0px; width:5px"></div></td>
-            <td id="sys_region_1" style="margin:0px; padding:5px; vertical-align:top; line-height:normal; min-width:100px" class="zone_right" width="70%"><div id="I36" style="display:block;clear: both;text-align:left;" class="Image_Default"><img id="I36_img" src="<?php echo bloginfo('stylesheet_directory'); ?>/img/head_NewsPress.gif" alt="Packages Available" style="width:; border:none;"></div><div id="I81" style="display:block;clear: both;margin:0px 0px 0px 10px;" class="Text_Default">
-    <div id="I81_sys_txt" class="sys_txt" style="margin:0px; padding:0px; color:; font:; background-color:;"><p class="w" sizset="0" sizcache="781" align="center"><font style="color: rgb(51, 0, 0);" size="5"><font style="color: rgb(51, 0, 0);" face="Comic Sans MS, Comic Sans"><span style="font-weight: bold;"><u>Allure Magazine</u></span></font></font></p> 
-<p class="w" sizset="0" sizcache="781" align="center"><font face="Comic Sans MS, Comic Sans"><font style="color: rgb(51, 0, 0);" size="3"><font style="color: rgb(51, 0, 0);" size="3"><span style="font-weight: bold;">Top Spray tanners in the&nbsp;U.S.~June, 2011</span></font></font> </font></p> 
-<p class="w" sizset="0" sizcache="781" align="center"><font style="color: rgb(51, 0, 0);" size="3"><font style="color: rgb(51, 0, 0);" size="3" face="Comic Sans MS, Comic Sans"><span style="font-weight: bold;">"When
-Lovallo arrived at our house..she worked quickly...her formula created
-a believable bronze that lasted for nine days-and a feeling that we
-could get used to this kind of service."</span></font></font></p><p style="text-align: center;"><a href="http://www.allure.com/celebrity-trends/cover-shoot/2011/january-jones#slide=1" s_oc="null"></a><span style="font-weight: bold;"><font size="3" color="#330000" face="Comic Sans MS, Comic Sans"><a href="http://www.allure.com/celebrity-trends/cover-shoot/2011/january-jones#slide=1" s_oc="null"><img style="width: 290px; height: 376px;" title="January Jones - June 2011" alt="January Jones - June 2011" src="<?php echo bloginfo('stylesheet_directory'); ?>/img/toc_june2011_Jjones.htm"></a></font></span></p><div style="text-align: center;"> 
-</div><div class="w" sizset="0" sizcache="781"><div style="text-align: center;"><font face="Comic Sans MS, Comic Sans"><br><br>&nbsp;</font><font face="Comic Sans MS, Comic Sans"><font style="color: rgb(51, 0, 0);" size="3"><font style="color: rgb(51, 0, 0);" size="4"><span style="font-weight: bold;"><u><font size="5">InStyle Magazine</font></u></span></font></font></font></div> 
-<p style="text-align: left;" align="center"><font face="Comic Sans MS, Comic Sans"><font style="color: rgb(51, 0, 0);" size="3"><font style="color: rgb(51, 0, 0);" size="4"><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<font size="3">Beauty Winner~Kelly's Mobile Tan:</font></span></font></font></font></p> 
-<p style="text-align: center;"><font face="Comic Sans MS, Comic Sans"><font style="color: rgb(51, 0, 0);" size="3"><font style="color: rgb(51, 0, 0);" size="4"><span style="font-weight: bold;"></span></font></font><font style="color: rgb(51, 0, 0);" size="3"><font style="color: rgb(51, 0, 0);" size="4"><span style="font-weight: bold;">&nbsp; </span></font></font><font style="color: rgb(51, 0, 0);" size="3"><span style="color: rgb(51, 0, 0);">"Kelly
-Lovallo can be in and out the door in 20 minutes, or she'll even bring
-an extra-special delivery: yummy margaritas and fajitas for a bronzing
-bash with your friends."</span></font> </font></p></div><br><p style="text-align: center;"><font face="Comic Sans MS, Comic Sans"><img style="margin: 4px; padding: 0px; width: 364px; float: none; height: 364px; color: rgb(51, 0, 0); font-weight: bold;" src="<?php echo bloginfo('stylesheet_directory'); ?>/img/InStyle_Oct098ddd.jpg"></font></p> 
-</div>
+            <td id="sys_region_1" style="margin:0px; padding:5px; vertical-align:top; line-height:normal; min-width:100px" class="zone_right" width="70%">
 
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                    <?php the_content(); ?>
+                </article>
+            <?php endwhile; endif; ?>
 
-</div><div id="I102" style="display:block;clear: both;" class="Text_Default">
-    <div id="I102_sys_txt" class="sys_txt" style="margin:0px; padding:0px; color:; font:; background-color:;"><p><br></p><p class="w" sizset="0" sizcache="781" align="center"><font style="color: rgb(51, 0, 0);"><font style="color: rgb(51, 0, 0);" size="4" face="Comic Sans MS, Comic Sans"><span style="font-weight: bold;"><u><font size="5">Toronto Magazine<br></font></u></span></font></font></p> 
-<p class="w" sizset="0" sizcache="781" align="center"><font face="Comic Sans MS, Comic Sans"><font style="color: rgb(51, 0, 0);" size="3"><font style="color: rgb(51, 0, 0);" size="3"><span style="font-weight: bold;">July, 2012</span></font></font> </font></p><p class="w" sizset="0" sizcache="781" align="center"></p><blockquote type="cite" style="text-align: center; "><font size="3" color="#330000" face="Comic Sans MS, Comic Sans">Best of Toronto 2016: Fabulous Fake Tans: Sunless Tanning and Spa delivers "smooth, streak-free color in less than 15 minutes"</font></blockquote><p></p></div>
-
-
-</div><div id="I110" style="display:block;clear: both;text-align:center;" class="Image_Default"><img id="I110_img" src="<?php echo bloginfo('stylesheet_directory'); ?>/img/wash%2520mag.htm" style="width:285px; border:none;"></div><div id="I104" style="display:block;clear: both;" class="Text_Default">
-    <div id="I104_sys_txt" class="sys_txt" style="margin:0px; padding:0px; color:; font:; background-color:;"><p>&nbsp;</p>
-<p class="w" sizset="0" sizcache="781" align="center"><font style="color: rgb(51, 0, 0);"><font style="color: rgb(51, 0, 0);" size="4" face="Comic Sans MS, Comic Sans"><span style="font-weight: bold;"><u><font size="5">Capitol File Magazine<br>
-</font></u></span></font></font></p>
- 
-<p class="w" sizset="0" sizcache="781" align="center"><font face="Comic Sans MS, Comic Sans"><font style="color: rgb(51, 0, 0);" size="3"><font style="color: rgb(51, 0, 0);" size="3"><span style="font-weight: bold;">July, 2012</span></font></font></font></p><blockquote type="cite" style="text-align: center; "><font size="3" color="#330000" face="Comic Sans MS, Comic Sans">"Experts
- to have on speed dial: Jan Branev, a Toronto based mobile spray tanner 
-known for her bespoke bronzing and a VIP client list."</font></blockquote><p></p>
-</div>
-
-
-</div><div id="I103" style="display:block;clear: both;text-align:center;" class="Image_Default"><img id="I103_img" src="<?php echo bloginfo('stylesheet_directory'); ?>/img/Picture%25207.htm" style="width:277px; border:none;"></div><div id="I107" style="display:block;clear: both;" class="Text_Default">
-    <div id="I107_sys_txt" class="sys_txt" style="margin:0px; padding:0px; color:; font:; background-color:;"><p><br></p>
-<p class="w" sizset="0" sizcache="781" align="center"><font style="color: rgb(51, 0, 0);"><font style="color: rgb(51, 0, 0);" size="4" face="Comic Sans MS, Comic Sans"><span style="font-weight: bold;"><u><font size="5">Allure Magazine<br>
-</font></u></span></font></font></p>
- 
-<p class="w" sizset="0" sizcache="781" align="center"><font face="Comic Sans MS, Comic Sans"><font style="color: rgb(51, 0, 0);" size="3"><font style="color: rgb(51, 0, 0);" size="3"><span style="font-weight: bold;">October, 2011</span></font></font> </font></p><p class="w" sizset="0" sizcache="781" align="center"></p><div style="text-align: center;"><span style="color: rgb(51, 34, 0); font-family: 'Comic Sans MS', 'Comic Sans'; font-size: medium; ">The Best of the Best:&nbsp;</span><span style="color: rgb(51, 34, 0); font-family: 'Comic Sans MS', 'Comic Sans'; font-size: medium; ">Kelly's Mobile Tan</span></div><div style="text-align: center;"><font size="3" color="#332200" face="Comic Sans MS, Comic Sans">"Her at-home airbrushing leaves skin glowing"</font></div><p></p>
-</div>
-
-
-</div><div id="I106" style="display:block;clear: both;text-align:center;" class="Image_Default"><img id="I106_img" src="<?php echo bloginfo('stylesheet_directory'); ?>/img/Picture%25205.png" style="width:254px; border:none;"></div><div id="I80" style="display:block;clear: both;margin:0px 0px 0px 10px;" class="Text_Default">
-    <div id="I80_sys_txt" class="sys_txt" style="margin:0px; padding:0px; color:; font:; background-color:;"><div style="text-align: center; font-family: Comic Sans MS,Comic Sans;"><p style="font-family: Comic Sans MS,Comic Sans; text-align: center;"><font style="text-decoration: underline;" size="5"><span style="color: rgb(51, 0, 0);"><span style="font-weight: bold;"><br></span></span></font></p><p style="font-family: Comic Sans MS,Comic Sans; text-align: center;"><font style="text-decoration: underline;" size="5"><span style="color: rgb(51, 0, 0);"><span style="font-weight: bold;">Northern Virginia Magazine</span></span></font></p><font size="3"><span style="color: rgb(51, 0, 0);"><span style="font-weight: bold; font-family: Comic Sans MS,Comic Sans;">"Your Ticket to Obtainining a Perfect Tan:</span><span style="font-family: Comic Sans MS,Comic Sans;">&nbsp;The
-mobile airbrush tanning company, which services clients at homes and
-businesses within 20 miles of Tysons Corner, offers the convenience of
-bringing a tan to you — and not just any tan! The tanning solution,
-which happens to be the one currently used by the contestants on
-“Dancing With the Stars,” is applied in under 15 minutes; and clients
-walk away with a natural, instant tan that lasts up to 10 days!"</span></span></font><span style="color: rgb(51, 0, 0);"><font size="4"><img style="margin: 4px; padding: 0px; float: none; font-weight: bold; width: 326px; height: 358px;" src="<?php echo bloginfo('stylesheet_directory'); ?>/img/press_NoVaMagd330.jpg"></font></span></div></div>
-
-
-</div><div id="I165" style="display:block;clear: both;margin:10px 10px 10px 10px;" class="Panel_Default">
     <?php include( 'partials/bottom_section.php' ); ?>
     </td>
         </tr>
